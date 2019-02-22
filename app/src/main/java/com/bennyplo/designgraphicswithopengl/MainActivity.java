@@ -1,4 +1,4 @@
-package com.bennyplo.openglpipeline;
+package com.bennyplo.designgraphicswithopengl;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

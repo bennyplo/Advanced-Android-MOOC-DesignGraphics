@@ -1,4 +1,4 @@
-package com.bennyplo.openglpipeline;
+package com.bennyplo.designgraphicswithopengl;
 
 import android.content.Context;
 import android.opengl.GLSurfaceView;
