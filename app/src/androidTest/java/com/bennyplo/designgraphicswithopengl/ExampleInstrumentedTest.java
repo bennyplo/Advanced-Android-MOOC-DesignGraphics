@@ -1,4 +1,4 @@
-package com.bennyplo.openglpipeline;
+package com.bennyplo.virtualreality;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

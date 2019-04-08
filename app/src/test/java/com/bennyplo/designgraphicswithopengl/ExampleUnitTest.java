@@ -1,4 +1,4 @@
-package com.bennyplo.openglpipeline;
+package com.bennyplo.virtualreality;
 
 import org.junit.Test;
 
