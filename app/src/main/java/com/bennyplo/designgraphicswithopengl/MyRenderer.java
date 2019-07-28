@@ -15,18 +15,11 @@ public class MyRenderer implements GLSurfaceView.Renderer {
     private final float[] mMVMatrix=new float[16];//model view matrix
     private final float[] mModelMatrix=new float[16];//model  matrix
     private CharacterA mcharA;
-    //private ArbitaryShape marbitary;
-    //private Sphere msphere;
-    //private CharacterS mcharS;
-
     @Override
     public void onSurfaceCreated(GL10 unused, EGLConfig config) {
         // Set the background frame color to black
         GLES32.glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
         mcharA=new CharacterA();
-        //marbitary=new ArbitaryShape();
-        //msphere=new Sphere();
-        //mcharS=new CharacterS();
     }
     public static void checkGlError(String glOperation) {
         int error;
@@ -79,9 +72,6 @@ public class MyRenderer implements GLSurfaceView.Renderer {
         Matrix.multiplyMM(mMVPMatrix,0,mProjectionMatrix,0,mMVMatrix,0);
 
         mcharA.draw(mMVPMatrix);
-        //marbitary.draw(mMVPMatrix);
-        //msphere.draw(mMVPMatrix);
-        //mcharS.draw(mMVPMatrix);
     }
 
 }
